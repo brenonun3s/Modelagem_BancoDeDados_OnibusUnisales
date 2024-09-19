@@ -8,25 +8,26 @@ Foi utilizado o SGDB MYSQL para elaboração do banco de dados.
 
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
 
 # Alunos responsáveis pela elaboração desse projeto
 
-RA 6924106689
-Breno Nunes dos Santos
+RA 6924106689 / Breno Nunes dos Santos
 
-RA 6924106574  
-Emanuel Gonçalves Ferreira
+RA 6924106574 / Emanuel Gonçalves Ferreira
 
-RA 6924106412
-Gabriel Lima Groner
+RA 6924106412 / Gabriel Lima Groner
 
-RA 6924106716
-Gleidson de Azevedo Rossmann
+RA 6924106716 / Gleidson de Azevedo Rossmann
 
-RA 6922203723
-Rafael Vieira Gogge
+RA 6922203723 / Rafael Vieira Gogge
 
-RA 6924106672
-Renan da Cruz Santos
+RA 6924106672 / Renan da Cruz Santos
+
+# Professor / Orientador
+
+Prof. Vito Rodrigues Franzosi
+
 
 
