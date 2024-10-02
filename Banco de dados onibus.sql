@@ -34,15 +34,15 @@ CREATE TABLE viagem (
 
 
 CREATE TABLE passageiro (
-  id int NOT NULL AUTO_INCREMENT,					#Identificador primário para cada passageiro, auto increment usado para a criação do próximo número de ID.
-  nome varchar(150) COLLATE utf8_bin NOT NULL,		#Nome do passageiro com no máximo 150 caracteres, UTF8 usado para o uso universal dos caracteres.
-  sexo enum('M', 'F') NOT NULL, 					#Alterado para apenas ser possível selecionar masculino ou feminino.
-  email varchar(150) COLLATE utf8_bin NOT NULL,		#E-mail para direcionamento de notificações e confirmações dos dados de viagem, cadastro, passagem etc.
-  cpf varchar(14) COLLATE utf8_bin NOT NULL,		#CPF deve ser único, tornando cada passageiro único e referenciando ao ID.
-  celular varchar(15) COLLATE utf8_bin NOT NULL,	#Celular, como o e-mail, para direcionamento de notificações e confirmações dos dados de viagem, cadastro, passagem etc.
-  PRIMARY KEY (id),									#Declaração de que o ID é a chave primária.
-  UNIQUE KEY email_UNIQUE (email),					#O e-mail do passageiro deve ser único.
-  UNIQUE KEY cpf_UNIQUE (cpf)						#O CPF do passageiro deve ser único.
+  id int NOT NULL AUTO_INCREMENT,
+  nome varchar(150) COLLATE utf8_bin NOT NULL,
+  sexo enum('M', 'F') NOT NULL, 					#Alterado para apenas ser possível selecionar masculino ou feminino
+  email varchar(150) COLLATE utf8_bin NOT NULL,
+  cpf varchar(14) COLLATE utf8_bin NOT NULL,
+  celular varchar(15) COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (id),
+  UNIQUE KEY email_UNIQUE (email),
+  UNIQUE KEY cpf_UNIQUE (cpf)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb3 COLLATE=utf8_bin;
 
 CREATE TABLE passagem (
